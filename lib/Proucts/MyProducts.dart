@@ -1,0 +1,65 @@
+import 'package:assignment/Proucts/product.dart';
+
+class myProduct {
+  List<Product> noodles = [
+    Product(
+      id: 1,
+      description: "heloo I am shoe you can eat can wear me",
+      name: 'Shoe',
+      price: 2152.00,
+      image: 'images/shoe.jpg',
+      category: "Shoe",
+      quantity:15,
+    ),
+    Product(
+      id: 1,
+      //status: "Available",
+      description: "heloo I am Ball you can play with  me",
+      name: 'Ball',
+      price: 120.00,
+      image: 'images/ball.jpg',
+      category: "Ball",
+      quantity:20,
+    ),
+    Product(
+      id: 1,
+     // status: "Available",
+      description: "heloo I am Silver Chain you wear me",
+      name: 'Silver Chain',
+      price: 20.00,
+      image: 'images/accessories.jpg',
+      category: "accessories",
+      quantity:15,
+    ),
+    Product(
+      id: 1,
+     // status: "Available",
+      description: "heloo I am watch  you can wear me",
+      name: 'Watch',
+      price: 6000.00,
+      image: 'images/watch.jpg',
+      category: "Watch",
+      quantity:10,
+    ),
+    Product(
+      id: 1,
+    //  status: "Sold",
+      description: "heloo I am Perfume you can spray me to your body",
+      name: 'Perfume',
+      price: 1500.00,
+      image: 'images/perfumes.jpg',
+      category: "Perfumes",
+      quantity:15,
+    ),
+    Product(
+      description: "heloo I am Tshirt you can wear me",
+      id: 1,
+     // status: "Available",
+      name: 'T-shirt',
+      price: 800.00,
+      image: 'images/topwear.jpg',
+      category: "topwear",
+      quantity:15,
+    ),
+  ];
+}
